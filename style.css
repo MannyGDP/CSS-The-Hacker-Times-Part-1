@@ -1,47 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body{
+    background-color: rgb(162, 162, 162);
+}
 h1{
     text-align: center;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.cupcake {
-    align-content: center;
+.newspaper-container {
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
     padding: 20px;
-    width: 650px;
-    background-color: rgb(245, 240, 245);
-
-}
-
-nav {
-    background-color: #f5f5dc;
-    padding: 10px;
-}
-
-nav ul {
-    list-style-type: none;
+    margin: 30px auto;
+    box-shadow: 1px 1px 10px grey;
     text-align: center;
 }
-nav li {
-    display: inline;
+nav{
+    text-align: center;
+    border-top: 1px solid;
+    position: sticky;
+    top: 0px;
+    background: white;
 }
-nav a {
-    text-decoration: none;
-    font-size: 1em;
-    color: #777;
-    margin-right: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+ul{
+    padding-left: 0px;
 }
-
-nav a:hover {
-    color: darkred;
+li {
+    display: inline-block;
+    margin: opx;
 }
-
-.more-articles{
+p {
+    text-align: justify;
+    padding: opx 16px;
+}
+.more-articles {
     align-items: center;
     width: 60%;
     background-color: aliceblue;
     padding: 25px;
     border: #777 5px ;
 }
-div{
-    align-items: center;
+a{
+    text-decoration: none;
+    color: #777;
+}
+img {
+    width: 100%;
+}
+section {
+    display: inline-block;
+    width: 49%;
 }
