@@ -41,8 +41,8 @@ p {
     padding: opx 16px;
 }
 .more-articles {
+    display: inline-block;
     align-items: center;
-    width: 90%;
     background-color: aliceblue;
     padding: 25px;
     border: #777 5px ;
@@ -57,9 +57,10 @@ img {
 section {
     display: inline-block;
     width: 49%;
+    margin: 2px;
 }
-.AddMore-articles {
+.add-more-articles {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 49%;
+    width: 100%;
 }
