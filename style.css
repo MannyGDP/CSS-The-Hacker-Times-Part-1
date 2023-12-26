@@ -13,8 +13,8 @@ main h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .newspaper-container {
-    width: 700px;
-    background-color: rgb(255, 255, 255);
+    width: 900px;
+    background-color: rgb(151, 195, 242);
     border-radius: 15px;
     padding: 20px;
     margin: 30px auto;
@@ -43,9 +43,10 @@ p {
 .more-articles {
     display: inline-block;
     align-items: center;
-    background-color: aliceblue;
-    padding: 25px;
-    border: #777 5px ;
+    border-radius: 15px;
+    background-color: rgb(208, 211, 209);
+    padding: 15px;
+    border: #777 15px ;
 }
 a{
     text-decoration: none;
@@ -56,13 +57,19 @@ img {
 }
 section {
     display: inline-block;
-    width: 49%;
-    margin: 2px;
+    border: 2px;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 1px 1px 10px grey;
+    width: 43%;
+    margin: 10px;
 }
 .add-more-articles {
-    display: grid;
+    display: inline-flex;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px grey;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    width: 100%;
+    width: 95%;
 }
